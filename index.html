@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Introdução à Visão Computacional - Curso Completo</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .header {
+            text-align: center;
+            color: white;
+            margin-bottom: 40px;
+        }
+        .header h1 {
+            font-size: 3em;
+            margin-bottom: 10px;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+        }
+        .header p {
+            font-size: 1.2em;
+            opacity: 0.9;
+        }
+        .course-info {
+            background: white;
+            border-radius: 15px;
+            padding: 30px;
+            margin-bottom: 30px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+        }
+        .modules-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            margin-top: 30px;
+        }
+        .module-card {
+            background: white;
+            border-radius: 10px;
+            padding: 20px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            border-left: 5px solid #667eea;
+        }
+        .module-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+        }
+        .module-card h3 {
+            color: #333;
+            margin-top: 0;
+            font-size: 1.3em;
+        }
+        .module-card p {
+            color: #666;
+            margin-bottom: 15px;
+        }
+        .module-link {
+            display: inline-block;
+            background: #667eea;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background 0.3s ease;
+        }
+        .module-link:hover {
+            background: #5a6fd8;
+        }
+        .duration {
+            font-size: 0.9em;
+            color: #888;
+            font-style: italic;
+        }
+        .prerequisites {
+            background: #f8f9fa;
+            border-radius: 10px;
+            padding: 20px;
+            margin-bottom: 30px;
+        }
+        .prerequisites h3 {
+            color: #333;
+            margin-top: 0;
+        }
+        .prerequisites ul {
+            margin: 0;
+            padding-left: 20px;
+        }
+        .prerequisites li {
+            margin-bottom: 8px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🔬 Introdução à Visão Computacional</h1>
+            <p>Curso Completo de Deep Learning e IA para Análise de Imagens</p>
+        </div>
+
+        <div class="course-info">
+            <h2>📚 Sobre o Curso</h2>
+            <p>Este curso oferece uma introdução abrangente à visão computacional moderna, combinando fundamentos teóricos com implementações práticas usando PyTorch. Você aprenderá desde os conceitos básicos até as técnicas mais avançadas, incluindo Foundation Models e aplicações práticas no mercado.</p>
+            
+            <div class="prerequisites">
+                <h3>📋 Pré-requisitos</h3>
+                <ul>
+                    <li><strong>Programação Python:</strong> Conhecimento intermediário em Python</li>
+                    <li><strong>Matemática:</strong> Álgebra linear básica e cálculo</li>
+                    <li><strong>Machine Learning:</strong> Conceitos básicos de ML (opcional)</li>
+                    <li><strong>Ambiente:</strong> Jupyter Notebook ou ambiente Python configurado</li>
+                </ul>
+            </div>
+
+            <h3>🎯 Objetivos de Aprendizagem</h3>
+            <ul>
+                <li>Compreender a evolução histórica da visão computacional</li>
+                <li>Dominar fundamentos de processamento digital de imagem</li>
+                <li>Implementar CNNs e arquiteturas clássicas</li>
+                <li>Aplicar transfer learning em projetos práticos</li>
+                <li>Resolver tarefas fundamentais: classificação, detecção e segmentação</li>
+                <li>Utilizar OCR e reconhecimento de texto</li>
+                <li>Implementar Vision Transformers e mecanismos de atenção</li>
+                <li>Integrar Foundation Models (CLIP, GPT-4V, Gemini)</li>
+                <li>Desenvolver projetos completos de visão computacional</li>
+            </ul>
+        </div>
+
+        <div class="modules-grid">
+            <div class="module-card">
+                <h3>Módulo 1: Introdução e História</h3>
+                <p>Explore a evolução da visão computacional desde os anos 1960 até os Foundation Models modernos. Conheça os marcos históricos que moldaram a área.</p>
+                <div class="duration">Duração: 1h30</div>
+                <a href="https://github.com/rfapo/visao-computacional/blob/main/01_introducao_historia_visao_computacional.ipynb" class="module-link">Acessar Módulo</a>
+            </div>
+
+            <div class="module-card">
+                <h3>Módulo 2: Processamento Digital de Imagem</h3>
+                <p>Fundamentos matemáticos e técnicas básicas de processamento de imagem baseados em Gonzalez & Woods.</p>
+                <div class="duration">Duração: 2h10</div>
+                <a href="https://github.com/rfapo/visao-computacional/blob/main/02_processamento_digital_imagem_fundamentos.ipynb" class="module-link">Acessar Módulo</a>
+            </div>
+
+            <div class="module-card">
+                <h3>Módulo 3: Deep Learning para Visão</h3>
+                <p>CNNs, arquiteturas clássicas (AlexNet, VGG, ResNet) e implementações práticas com PyTorch.</p>
+                <div class="duration">Duração: 2h</div>
+                <a href="https://github.com/rfapo/visao-computacional/blob/main/03_deep_learning_visao_computacional.ipynb" class="module-link">Acessar Módulo</a>
+            </div>
+
+            <div class="module-card">
+                <h3>Módulo 4: Transfer Learning</h3>
+                <p>Estratégias de transfer learning e aplicações práticas no mercado com modelos pré-treinados.</p>
+                <div class="duration">Duração: 40 min</div>
+                <a href="https://github.com/rfapo/visao-computacional/blob/main/04_transfer_learning_aplicacoes_praticas.ipynb" class="module-link">Acessar Módulo</a>
+            </div>
+
+            <div class="module-card">
+                <h3>Módulo 5: Tarefas Fundamentais</h3>
+                <p>Classificação, detecção de objetos e segmentação de imagens com arquiteturas específicas.</p>
+                <div class="duration">Duração: 2h</div>
+                <a href="https://github.com/rfapo/visao-computacional/blob/main/05_tarefas_fundamentais_visao_computacional.ipynb" class="module-link">Acessar Módulo</a>
+            </div>
+
+            <div class="module-card">
+                <h3>Módulo 6: OCR e Reconhecimento de Texto</h3>
+                <p>Técnicas de OCR, ferramentas modernas (Tesseract, EasyOCR) e pré-processamento.</p>
+                <div class="duration">Duração: 1h</div>
+                <a href="https://github.com/rfapo/visao-computacional/blob/main/06_ocr_reconhecimento_texto.ipynb" class="module-link">Acessar Módulo</a>
+            </div>
+
+            <div class="module-card">
+                <h3>Módulo 7: GANs e VAEs</h3>
+                <p>Geração sintética de imagens com Generative Adversarial Networks e Variational Autoencoders.</p>
+                <div class="duration">Duração: 1h</div>
+                <a href="https://github.com/rfapo/visao-computacional/blob/main/07_gans_vaes_geracao_sintetica.ipynb" class="module-link">Acessar Módulo</a>
+            </div>
+
+            <div class="module-card">
+                <h3>Módulo 8: Vision Transformers</h3>
+                <p>Mecanismos de atenção, arquitetura ViT e comparação com CNNs tradicionais.</p>
+                <div class="duration">Duração: 1h</div>
+                <a href="https://github.com/rfapo/visao-computacional/blob/main/08_vision_transformers_atencao.ipynb" class="module-link">Acessar Módulo</a>
+            </div>
+
+            <div class="module-card">
+                <h3>Módulo 9: Foundation Models</h3>
+                <p>CLIP, DALL-E, GPT-4V, Gemini e integração com APIs para análise multimodal.</p>
+                <div class="duration">Duração: 1h</div>
+                <a href="https://github.com/rfapo/visao-computacional/blob/main/09_foundation_models_visao_computacional.ipynb" class="module-link">Acessar Módulo</a>
+            </div>
+
+            <div class="module-card">
+                <h3>Módulo 10: Atividade Final</h3>
+                <p>Projeto completo integrando todas as técnicas aprendidas em um sistema multimodal.</p>
+                <div class="duration">Duração: 1h</div>
+                <a href="https://github.com/rfapo/visao-computacional/blob/main/10_atividade_final_pratica.ipynb" class="module-link">Acessar Módulo</a>
+            </div>
+        </div>
+
+        <div class="course-info">
+            <h3>📊 Estatísticas do Curso</h3>
+            <ul>
+                <li><strong>Total de Módulos:</strong> 10</li>
+                <li><strong>Carga Horária Total:</strong> 12h40min</li>
+                <li><strong>Conceitos Abordados:</strong> 60+</li>
+                <li><strong>Implementações Práticas:</strong> 20+</li>
+                <li><strong>Referências Acadêmicas:</strong> 120+</li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
