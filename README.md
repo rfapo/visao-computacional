@@ -192,3 +192,25 @@ Com 24 anos de experiência em TI, Rodrigo é um líder reconhecido no ecossiste
 ---
 
 ⭐ **Se este projeto foi útil para você, considere dar uma estrela!** ⭐
+
+## 🚀 Otimização para Google Colab
+
+### Problema: Rate Limiting do GitHub (429 Too Many Requests)
+
+**Causa:** O Google Colab carrega muitas imagens simultaneamente, excedendo os limites do GitHub.
+
+**Soluções Implementadas:**
+
+1. **CDN jsdelivr**: URLs convertidas para usar CDN mais rápido
+2. **Lazy Loading**: Imagens carregam conforme necessário
+3. **Fallback**: URLs alternativas em caso de falha
+
+### URLs Atualizadas:
+- **Antes**: `https://github.com/rfapo/visao-computacional/blob/main/images/moduloX/imagem.png?raw=true`
+- **Depois**: `https://cdn.jsdelivr.net/gh/rfapo/visao-computacional@main/images/moduloX/imagem.png`
+
+### Benefícios:
+- ✅ **Mais rápido**: CDN otimizado
+- ✅ **Sem rate limiting**: Limites mais altos
+- ✅ **Melhor compatibilidade**: Funciona em Colab, GitHub e Cursor
+- ✅ **Cache inteligente**: Reduz requisições desnecessárias
