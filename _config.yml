@@ -1,0 +1,24 @@
+# GitHub Pages Configuration
+title: "Introdução à Visão Computacional"
+description: "Curso completo de Visão Computacional e Deep Learning"
+author: "Rodrigo Fapo"
+url: "https://rfapo.github.io"
+baseurl: "/visao-computacional"
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+theme: minima
+
+# Plugins
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+
+# Exclude from processing
+exclude:
+  - README.md
+  - requirements.txt
+  - plano_de_aula_perplexity.md
+  - images/
+  - "*.ipynb"
