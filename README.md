@@ -39,16 +39,16 @@ Este curso oferece uma introdução abrangente à visão computacional moderna, 
 
 | Módulo | Tópico | Duração | Notebook |
 |--------|--------|---------|----------|
-| 1 | Introdução e História | 1h30 | [📓 Acessar](https://github.com/rfapo/visao-computacional/blob/main/01_introducao_historia_visao_computacional.ipynb) |
-| 2 | Processamento Digital de Imagem | 2h | [📓 Acessar](https://github.com/rfapo/visao-computacional/blob/main/02_processamento_digital_imagem_fundamentos.ipynb) |
-| 3 | Deep Learning para Visão | 2h | [📓 Acessar](https://github.com/rfapo/visao-computacional/blob/main/03_deep_learning_visao_computacional.ipynb) |
-| 4 | Transfer Learning | 1h30 | [📓 Acessar](https://github.com/rfapo/visao-computacional/blob/main/04_transfer_learning_aplicacoes_praticas.ipynb) |
-| 5 | Tarefas Fundamentais | 2h | [📓 Acessar](https://github.com/rfapo/visao-computacional/blob/main/05_tarefas_fundamentais_visao_computacional.ipynb) |
-| 6 | OCR e Reconhecimento de Texto | 1h30 | [📓 Acessar](https://github.com/rfapo/visao-computacional/blob/main/06_ocr_reconhecimento_texto.ipynb) |
-| 7 | GANs e VAEs | 1h30 | [📓 Acessar](https://github.com/rfapo/visao-computacional/blob/main/07_gans_vaes_geracao_sintetica.ipynb) |
-| 8 | Vision Transformers | 1h30 | [📓 Acessar](https://github.com/rfapo/visao-computacional/blob/main/08_vision_transformers_atencao.ipynb) |
-| 9 | Foundation Models | 1h30 | [📓 Acessar](https://github.com/rfapo/visao-computacional/blob/main/09_foundation_models_visao_computacional.ipynb) |
-| 10 | Atividade Final | 1h30 | [📓 Acessar](https://github.com/rfapo/visao-computacional/blob/main/10_atividade_final_pratica.ipynb) |
+| 1 | Introdução e História | 1h30 | [📓 Acessar](https://github.com/rfapo/visao-computacional/blob/main/curso/01_introducao_historia_visao_computacional.ipynb) |
+| 2 | Processamento Digital de Imagem | 2h | [📓 Acessar](https://github.com/rfapo/visao-computacional/blob/main/curso/02_processamento_digital_imagem_fundamentos.ipynb) |
+| 3 | Deep Learning para Visão | 2h | [📓 Acessar](https://github.com/rfapo/visao-computacional/blob/main/curso/03_deep_learning_visao_computacional.ipynb) |
+| 4 | Transfer Learning | 1h30 | [📓 Acessar](https://github.com/rfapo/visao-computacional/blob/main/curso/04_transfer_learning_aplicacoes_praticas.ipynb) |
+| 5 | Tarefas Fundamentais | 2h | [📓 Acessar](https://github.com/rfapo/visao-computacional/blob/main/curso/05_tarefas_fundamentais_visao_computacional.ipynb) |
+| 6 | OCR e Reconhecimento de Texto | 1h30 | [📓 Acessar](https://github.com/rfapo/visao-computacional/blob/main/curso/06_ocr_reconhecimento_texto.ipynb) |
+| 7 | GANs e VAEs | 1h30 | [📓 Acessar](https://github.com/rfapo/visao-computacional/blob/main/curso/07_gans_vaes_geracao_sintetica.ipynb) |
+| 8 | Vision Transformers | 1h30 | [📓 Acessar](https://github.com/rfapo/visao-computacional/blob/main/curso/08_vision_transformers_atencao.ipynb) |
+| 9 | Foundation Models | 1h30 | [📓 Acessar](https://github.com/rfapo/visao-computacional/blob/main/curso/09_foundation_models_visao_computacional.ipynb) |
+| 10 | Atividade Final | 1h30 | [📓 Acessar](https://github.com/rfapo/visao-computacional/blob/main/curso/10_atividade_final_pratica.ipynb) |
 
 ## 🚀 Como Usar
 
