@@ -174,7 +174,7 @@ Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para ma
 
 **Rodrigo Paiva, PhD**
 
-Com 24 anos de experiência em TI, Rodrigo é um líder reconhecido no ecossistema de Inteligência Artificial. Atua como Head de IA em Saúde na Neurotech e é Sócio e ex-CTO da health-tech PickCells. Sua carreira acadêmica inclui um PhD e pesquisa em IA Generativa pela Universidade de Pernambuco. Como Professor na CESAR School, ele forma novos líderes em IA e Ciência de Dados, conectando a academia ao mercado e direcionando a visão estratégica da Oni Soluções.
+Com 24 anos de experiência em TI, Rodrigo é um líder reconhecido no ecossistema de Inteligência Artificial. Atua como Head de IA em Saúde na Neurotech e é Sócio e ex-CTO da health-tech PickCells. Sua carreira acadêmica inclui um PhD e pesquisa em IA Generativa pela Universidade de Pernambuco. Como Professor na CESAR School, ele forma novos líderes em IA e Ciência de Dados, conectando a academia ao mercado.
 
 ### 🔗 Links
 
