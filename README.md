@@ -4,8 +4,9 @@
 [![Jupyter Notebook](https://img.shields.io/badge/Jupyter-Notebook-orange)](https://jupyter.org/)
 [![Python](https://img.shields.io/badge/Python-3.8+-green)](https://python.org/)
 [![PyTorch](https://img.shields.io/badge/PyTorch-1.9+-red)](https://pytorch.org/)
+[![License](https://img.shields.io/badge/License-MIT-yellow)](LICENSE)
 
-Curso completo de **Visão Computacional** e **Deep Learning** para análise de imagens, desenvolvido para mestrado em Engenharia de Software.
+> **Curso completo de Visão Computacional e Deep Learning** para análise de imagens, desenvolvido para mestrado em Engenharia de Software.
 
 ## 🌐 Acesso ao Curso
 
@@ -39,15 +40,15 @@ Este curso oferece uma introdução abrangente à visão computacional moderna, 
 | Módulo | Tópico | Duração | Notebook |
 |--------|--------|---------|----------|
 | 1 | Introdução e História | 1h30 | [📓 Acessar](https://github.com/rfapo/visao-computacional/blob/main/01_introducao_historia_visao_computacional.ipynb) |
-| 2 | Processamento Digital de Imagem | 2h10 | [📓 Acessar](https://github.com/rfapo/visao-computacional/blob/main/02_processamento_digital_imagem_fundamentos.ipynb) |
+| 2 | Processamento Digital de Imagem | 2h | [📓 Acessar](https://github.com/rfapo/visao-computacional/blob/main/02_processamento_digital_imagem_fundamentos.ipynb) |
 | 3 | Deep Learning para Visão | 2h | [📓 Acessar](https://github.com/rfapo/visao-computacional/blob/main/03_deep_learning_visao_computacional.ipynb) |
-| 4 | Transfer Learning | 40min | [📓 Acessar](https://github.com/rfapo/visao-computacional/blob/main/04_transfer_learning_aplicacoes_praticas.ipynb) |
+| 4 | Transfer Learning | 1h30 | [📓 Acessar](https://github.com/rfapo/visao-computacional/blob/main/04_transfer_learning_aplicacoes_praticas.ipynb) |
 | 5 | Tarefas Fundamentais | 2h | [📓 Acessar](https://github.com/rfapo/visao-computacional/blob/main/05_tarefas_fundamentais_visao_computacional.ipynb) |
-| 6 | OCR e Reconhecimento de Texto | 1h | [📓 Acessar](https://github.com/rfapo/visao-computacional/blob/main/06_ocr_reconhecimento_texto.ipynb) |
-| 7 | GANs e VAEs | 1h | [📓 Acessar](https://github.com/rfapo/visao-computacional/blob/main/07_gans_vaes_geracao_sintetica.ipynb) |
-| 8 | Vision Transformers | 1h | [📓 Acessar](https://github.com/rfapo/visao-computacional/blob/main/08_vision_transformers_atencao.ipynb) |
-| 9 | Foundation Models | 1h | [📓 Acessar](https://github.com/rfapo/visao-computacional/blob/main/09_foundation_models_visao_computacional.ipynb) |
-| 10 | Atividade Final | 1h | [📓 Acessar](https://github.com/rfapo/visao-computacional/blob/main/10_atividade_final_pratica.ipynb) |
+| 6 | OCR e Reconhecimento de Texto | 1h30 | [📓 Acessar](https://github.com/rfapo/visao-computacional/blob/main/06_ocr_reconhecimento_texto.ipynb) |
+| 7 | GANs e VAEs | 1h30 | [📓 Acessar](https://github.com/rfapo/visao-computacional/blob/main/07_gans_vaes_geracao_sintetica.ipynb) |
+| 8 | Vision Transformers | 1h30 | [📓 Acessar](https://github.com/rfapo/visao-computacional/blob/main/08_vision_transformers_atencao.ipynb) |
+| 9 | Foundation Models | 1h30 | [📓 Acessar](https://github.com/rfapo/visao-computacional/blob/main/09_foundation_models_visao_computacional.ipynb) |
+| 10 | Atividade Final | 1h30 | [📓 Acessar](https://github.com/rfapo/visao-computacional/blob/main/10_atividade_final_pratica.ipynb) |
 
 ## 🚀 Como Usar
 
@@ -77,7 +78,7 @@ Ou acesse diretamente:
 ## 📊 Estatísticas do Curso
 
 - **Total de Módulos**: 10
-- **Carga Horária Total**: 12h40min
+- **Carga Horária Total**: 15 horas
 - **Conceitos Abordados**: 60+
 - **Implementações Práticas**: 20+
 - **Referências Acadêmicas**: 120+
@@ -169,11 +170,17 @@ Contribuições são bem-vindas! Por favor:
 
 Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
 
-## 👨‍🏫 Autor
+## 👨‍🏫 Desenvolvido por
 
-**Rodrigo Fapo**
-- GitHub: [@rfapo](https://github.com/rfapo)
-- LinkedIn: [Rodrigo Fapo](https://linkedin.com/in/rodrigofapo)
+**Rodrigo Paiva, PhD**
+
+Com 24 anos de experiência em TI, Rodrigo é um líder reconhecido no ecossistema de Inteligência Artificial. Atua como Head de IA em Saúde na Neurotech e é Sócio e ex-CTO da health-tech PickCells. Sua carreira acadêmica inclui um PhD e pesquisa em IA Generativa pela Universidade de Pernambuco. Como Professor na CESAR School, ele forma novos líderes em IA e Ciência de Dados, conectando a academia ao mercado e direcionando a visão estratégica da Oni Soluções.
+
+### 🔗 Links
+
+- **🌐 [Oni Soluções](https://www.onisolucoes.net)** - Site oficial
+- **💼 [LinkedIn](https://linkedin.com/in/rodrigofapo)** - Perfil profissional
+- **🐙 [GitHub](https://github.com/rfapo)** - Projetos e código
 
 ## 🙏 Agradecimentos
 
