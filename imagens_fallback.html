@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Visão Computacional - Imagens com Fallback</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 20px; }
+        .image-container { margin: 20px 0; padding: 10px; border: 1px solid #ddd; }
+        .image-fallback { background: #f5f5f5; padding: 20px; text-align: center; color: #666; }
+        img { max-width: 100%; height: auto; }
+        .error { color: red; }
+        .success { color: green; }
+    </style>
+</head>
+<body>
+    <h1>🚀 Visão Computacional - Imagens com Fallback</h1>
+    
+    <div class="image-container">
+        <h3>Exemplo de Imagem com Fallback</h3>
+        <img src="https://cdn.jsdelivr.net/gh/rfapo/visao-computacional@main/images/modulo1/definicao_visao_computacional.png" 
+             alt="Definição Visão Computacional"
+             onerror="this.style.display='none'; this.nextElementSibling.style.display='block';">
+        <div class="image-fallback" style="display:none;">
+            <p>❌ Imagem não pôde ser carregada</p>
+            <p>🔗 URL alternativa: <a href="https://raw.githubusercontent.com/rfapo/visao-computacional/main/images/modulo1/definicao_visao_computacional.png" target="_blank">GitHub Raw</a></p>
+        </div>
+    </div>
+
+    <script>
+        // Função para tentar URLs alternativas
+        function loadImageWithFallback(img, urls, currentIndex = 0) {
+            if (currentIndex >= urls.length) {
+                img.style.display = 'none';
+                img.nextElementSibling.style.display = 'block';
+                return;
+            }
+            
+            img.onerror = function() {
+                console.log(`Tentativa ${currentIndex + 1} falhou, tentando próxima URL...`);
+                loadImageWithFallback(img, urls, currentIndex + 1);
+            };
+            
+            img.src = urls[currentIndex];
+        }
+        
+        // Aplicar fallback automático a todas as imagens
+        document.addEventListener('DOMContentLoaded', function() {
+            const images = document.querySelectorAll('img[data-fallback]');
+            images.forEach(img => {
+                const urls = JSON.parse(img.dataset.fallback);
+                loadImageWithFallback(img, urls);
+            });
+        });
+    </script>
+</body>
+</html>
